@@ -1,0 +1,25 @@
+@import "../../constants/variables";
+
+.chat-area {
+  background-color: #ffffff;
+  flex: 0 0 75%;
+  height: 100vh;
+  border-left: 2px solid rgba($light-grey, 0.12);
+  position: relative;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    padding: 0 1.6rem;
+    border-bottom: 2px solid rgba($light-grey, 0.12);
+  }
+
+  &__main {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 80%;
+    overflow: hidden;
+  }
+}

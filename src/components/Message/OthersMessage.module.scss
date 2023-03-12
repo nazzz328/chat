@@ -1,0 +1,47 @@
+@import "../../constants/variables";
+
+.others-message {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $black;
+  line-height: 2rem;
+  display: flex;
+  border-radius: 4px;
+  max-width: 50%;
+
+  &__main {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__wrapper {
+    align-items: start;
+  }
+
+  &__author {
+    font-weight: 700;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #f3f3f3;
+    padding: 0.6rem 0.8rem;
+    border-radius: 4px;
+  }
+
+  &__time {
+    margin-bottom: -4px;
+    text-align: right;
+    display: inline-block;
+    margin-left: auto;
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: $light-grey;
+    margin-left: 1rem;
+    margin-right: 2px;
+  }
+}

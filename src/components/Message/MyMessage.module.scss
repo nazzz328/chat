@@ -1,0 +1,44 @@
+@import "../../constants/variables";
+
+.my-message {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $black;
+  line-height: 2rem;
+  padding: 0.8rem 0.8rem 0.6rem 0.8rem;
+  display: inline-block;
+  border-radius: 4px;
+  max-width: 60%;
+  background-color: rgba(#407ec929, 0.16);
+  position: relative;
+
+  &__wrapper {
+    display: flex;
+    justify-content: end;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  &__time-block {
+    margin-top: 3px;
+    margin-bottom: -4px;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 4px;
+  }
+
+  &__time {
+    display: inline-block;
+    margin-left: auto;
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: $light-grey;
+    margin-left: 1rem;
+    margin-right: 2px;
+  }
+}

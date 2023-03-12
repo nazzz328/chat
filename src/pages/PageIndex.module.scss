@@ -1,0 +1,23 @@
+.index {
+  display: flex;
+  height: 100%;
+  align-items: stretch;
+  position: relative;
+}
+
+.below-700px {
+  display: none;
+  font-size: 6rem;
+  text-align: center;
+  padding: 20rem;
+}
+
+@media only screen and (max-width: 43.75em) {
+  .index {
+    display: none;
+  }
+
+  .below-700px {
+    display: block;
+  }
+}
